@@ -10,7 +10,7 @@ pipeline {
 
         stage('Build with Maven') {
             steps {
-                sh '/mnt/c/Users/HP/Downloads/apache-maven-3.9.9'
+                sh '/opt/apache-maven-3.9.9/bin/mvn'
             }
         }
     }
