@@ -10,7 +10,7 @@ pipeline {
 
         stage('Build with Maven') {
             steps {
-                sh 'mvn clean install'
+                sh '/mnt/c/Users/HP/Downloads/apache-maven-3.9.9'
             }
         }
     }
